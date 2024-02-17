@@ -103,6 +103,7 @@
 }
 
 .party-content .join-button {
+    color: white;
     padding: 15px 30px;
     background-color: red;
     border: none;
@@ -119,3 +120,146 @@
     background-color: #45a049;
 }
 
+/* Portfolio Section Styles */
+#portfolio {
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Portfolio Content Styles */
+.portfolio-content {
+    color: #333; /* Ash color */
+}
+
+.portfolio-content h7 {
+    font-size: 56px;
+    margin: 0;
+}
+
+.portfolio-content h6 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.portfolio-content p {
+    font-size: 26px;
+    margin: 20px 0;
+}
+
+/* Image Grid Styles */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.image-grid img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Subscribe Section Styles */
+#subscribe {
+    width: 1320px;
+    height: 416px;
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #ffe6e6;
+}
+
+/* Subscribe Content Styles */
+.subscribe-content {
+    color: #333;
+}
+
+.subscribe-content h6 {
+    font-size: 36px;
+    color: black;
+    margin: 10px 0;
+}
+
+.subscribe-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Subscribe Form Styles */
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.subscribe-form input[type="email"] {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.subscribe-form button {
+    padding: 10px 20px;
+    background-color: red; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.subscribe-form button:hover {
+    background-color: green;
+}
+
+/* Footer Section Styles */
+footer {
+    width: cover;
+    height: 303px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-content .left-side,
+.footer-content .right-side {
+    width: 50%;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid white;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons img {
+    width: 40px; /* Adjust size as needed */
+    height: auto;
+    margin: 0 10px;
+}
