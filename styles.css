@@ -211,7 +211,7 @@
 
 .subscribe-form button {
     padding: 10px 20px;
-    background-color: red; /* Green */
+    background-color: red; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -264,7 +264,7 @@ hr {
 }
 
 .social-icons img {
-    width: 40px; /* Adjust size as needed */
+    width: 40px; 
     height: auto;
     margin: 0 10px;
 }
@@ -291,7 +291,7 @@ hr {
 .first-part,
 .second-part,
 .third-part {
-    width: calc(33.33% - 10px); /* 33.33% width for each part with 10px gap */
+    width: calc(33.33% - 10px); 
     padding: 0 5px;
 }
 
@@ -319,5 +319,5 @@ hr {
 
 .first-part p,
 .third-part p {
-    color: #999; /* Ash color */
+    color: #999; 
 }
