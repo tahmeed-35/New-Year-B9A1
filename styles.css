@@ -1,0 +1,30 @@
+/* Banner Section Styles */
+#banner {
+    background-image: url('images/Banner\ Image.png');
+    background-size: cover;
+    width: 1320px;
+    height: 600px;
+    background-position: center;
+    margin: 10px 100px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Banner Content Styles */
+.banner-content {
+    text-align: center;
+    color: white;
+}
+
+.banner-content h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.banner-content h2 {
+    font-size: 100px; 
+    margin-top:0;
+    line-height: 1;
+}
