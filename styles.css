@@ -28,3 +28,49 @@
     margin-top:0;
     line-height: 1;
 }
+
+/* Offer Section Styles */
+#offer {
+    width: 802px;
+    height: 806px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Offer Content Styles */
+.offer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.offer-content h6,
+.offer-content h7,
+.offer-content h5 {
+    margin: 0;
+}
+
+.offer-content h6 {
+    color: red;
+    font-size: 64px; /* Adjust font size as needed */
+}
+
+.offer-content h7 {
+    color: red;
+    font-size: 28px; /* Adjust font size as needed */
+}
+
+.offer-content h5 {
+    color: black;
+    font-size: 36px; /* Adjust font size as needed */
+    margin-top: 10px; /* Adjust spacing as needed */
+}
+
+.offer-content img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20px; /* Adjust spacing as needed */
+}
+
